@@ -1,0 +1,26 @@
+UserControl "MahAppsWithAmmyUICaliburn.Views.Flyouts.Flyout3View" {
+  Width: "250"
+  Resources: ResourceDictionary {
+    SolidColorBrush Key="ListViewBackground" { Color: "Transparent" }
+  }
+  StackPanel {
+    Margin: "10"
+    Orientation: "Vertical"
+    Slider {
+      Margin: "5"
+      Style: "{DynamicResource MahApps.Metro.Styles.FlatSlider}"
+      Value: "50"
+    }
+    ListView "Artists" {
+      Height: "200"
+      Margin: "5"
+      Background: "{StaticResource ListViewBackground}"
+      BorderThickness: "0"
+      SelectedIndex: "0"
+      View: GridView {
+        GridViewColumn { DisplayMemberBinding: "{Binding ArtistId}",  Header: "ID" }
+        GridViewColumn { DisplayMemberBinding: "{Binding Name}",  Header: "artist" }
+      }
+    }
+  }
+}

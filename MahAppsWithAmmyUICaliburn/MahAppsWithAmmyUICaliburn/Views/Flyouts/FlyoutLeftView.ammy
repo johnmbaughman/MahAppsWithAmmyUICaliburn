@@ -1,0 +1,20 @@
+UserControl "MahAppsWithAmmyUICaliburn.Views.Flyouts.FlyoutLeftView" {
+  StackPanel {
+    Width: "150"
+    Margin: "5 5 5 5"
+    TextBlock { Text: "a test for left" }
+    CheckBox { Content: "a simple checkbox" }
+    RadioButton { Content: "a simple RadioButton" }
+    ComboBox {
+      ComboBoxItem {
+        "Item 1"
+      }
+      ComboBoxItem {
+        "Item 2"
+      }
+      ComboBoxItem {
+        "Item 3"
+      }
+    }
+  }
+}
