@@ -1,6 +1,0 @@
-<UserControl x:Class="MahAppsWithAmmyUICaliburnNoMEF.Views.Flyouts.Flyout2View" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:ns0="clr-namespace:AmmySidekick;assembly=AmmySidekick" ns0:Ammy.Register="/MahAppsWithAmmyUICaliburnNoMEF;component/Views/Flyouts/Flyout2View.g.xaml">
-  <StackPanel Orientation="Vertical">
-    <Button Content="create"/>
-    <Button Content="cancel"/>
-  </StackPanel>
-</UserControl>
