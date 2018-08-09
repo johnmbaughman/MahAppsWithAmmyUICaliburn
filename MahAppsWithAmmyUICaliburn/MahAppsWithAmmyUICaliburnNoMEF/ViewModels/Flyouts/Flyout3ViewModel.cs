@@ -1,5 +1,7 @@
-﻿using MahApps.Metro.Controls;
-using Caliburn.Micro;
+﻿using Caliburn.Micro;
+using MahApps.Metro.Controls;
+
+//using MetroDemo.Models;
 
 namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts
 {
@@ -12,7 +14,7 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts
         {
             get
             {
-                return artists;
+                return this.artists;
             }
         }
 
@@ -20,8 +22,8 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts
         {
             //SampleData.Seed();
             //this.Artists.AddRange(SampleData.Artists);
-            Header = "third";
-            Position = Position.Right;
+            this.Header = "third";
+            this.Position = Position.Right;
         }
     }
 }

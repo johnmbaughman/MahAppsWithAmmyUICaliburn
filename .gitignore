@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Ammy generated files
+*.g.xaml
+
 # User-specific files
 *.suo
 *.user

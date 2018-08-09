@@ -6,8 +6,8 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts
     {
         public FlyoutSettingsViewModel()
         {
-            Header = "settings";
-            Position = Position.Right;
+            this.Header = "settings";
+            this.Position = Position.Right;
         }
     }
 }

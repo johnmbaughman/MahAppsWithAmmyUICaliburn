@@ -6,9 +6,9 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts
     {
         public FlyoutBottomViewModel()
         {
-            Header = "Bottom";
-            Position = Position.Bottom;
-            Theme = FlyoutTheme.Light;
+            this.Header = "Bottom";
+            this.Position = Position.Bottom;
+            this.Theme = FlyoutTheme.Light;
         }
     }
 }

@@ -6,9 +6,9 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts
     {
         public FlyoutLeftViewModel()
         {
-            Header = "left";
-            Position = Position.Left;
-            Theme = FlyoutTheme.Accent;
+            this.Header = "left";
+            this.Position = Position.Left;
+            this.Theme = FlyoutTheme.Accent;
         }
     }
 }

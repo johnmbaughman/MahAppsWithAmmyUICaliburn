@@ -12,57 +12,57 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels
 
         public string Header
         {
-            get { return header; }
+            get { return this.header; }
             set
             {
-                if (value == header)
+                if (value == this.header)
                 {
                     return;
                 }
-                header = value;
-                NotifyOfPropertyChange(() => Header);
+                this.header = value;
+                this.NotifyOfPropertyChange(() => this.Header);
             }
         }
 
         public bool IsOpen
         {
-            get { return isOpen; }
+            get { return this.isOpen; }
             set
             {
-                if (value.Equals(isOpen))
+                if (value.Equals(this.isOpen))
                 {
                     return;
                 }
-                isOpen = value;
-                NotifyOfPropertyChange(() => IsOpen);
+                this.isOpen = value;
+                this.NotifyOfPropertyChange(() => this.IsOpen);
             }
         }
 
         public Position Position
         {
-            get { return position; }
+            get { return this.position; }
             set
             {
-                if (value == position)
+                if (value == this.position)
                 {
                     return;
                 }
-                position = value;
-                NotifyOfPropertyChange(() => Position);
+                this.position = value;
+                this.NotifyOfPropertyChange(() => this.Position);
             }
         }
 
         public FlyoutTheme Theme
         {
-            get { return theme; }
+            get { return this.theme; }
             set
             {
-                if (value == theme)
+                if (value == this.theme)
                 {
                     return;
                 }
-                theme = value;
-                NotifyOfPropertyChange(() => Theme);
+                this.theme = value;
+                this.NotifyOfPropertyChange(() => this.Theme);
             }
         }
     }

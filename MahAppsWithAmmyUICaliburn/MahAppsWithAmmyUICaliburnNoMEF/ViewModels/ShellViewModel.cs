@@ -1,5 +1,4 @@
 using Caliburn.Micro;
-using MahAppsWithAmmyUICaliburnNoMEF.ViewModels;
 using MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts;
 
 namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels
@@ -15,26 +14,26 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels
 
         public void Close()
         {
-            TryClose();
+            this.TryClose();
         }
 
         public void ToggleFlyout(int index)
         {
-            var flyout = FlyoutViewModels[index];
+            var flyout = this.FlyoutViewModels[index];
             flyout.IsOpen = !flyout.IsOpen;
         }
 
         protected override void OnInitialize()
         {
             base.OnInitialize();
-            DisplayName = "Caliburn Metro Demo";
-            FlyoutViewModels.Add(new Flyout1ViewModel());
-            FlyoutViewModels.Add(new Flyout2ViewModel());
-            FlyoutViewModels.Add(new Flyout3ViewModel());
-            FlyoutViewModels.Add(new FlyoutSettingsViewModel());
-            FlyoutViewModels.Add(new FlyoutLeftViewModel());
-            FlyoutViewModels.Add(new FlyoutTopViewModel());
-            FlyoutViewModels.Add(new FlyoutBottomViewModel());
+            this.DisplayName = "Caliburn Metro Demo";
+            this.FlyoutViewModels.Add(new Flyout1ViewModel());
+            this.FlyoutViewModels.Add(new Flyout2ViewModel());
+            this.FlyoutViewModels.Add(new Flyout3ViewModel());
+            this.FlyoutViewModels.Add(new FlyoutSettingsViewModel());
+            this.FlyoutViewModels.Add(new FlyoutLeftViewModel());
+            this.FlyoutViewModels.Add(new FlyoutTopViewModel());
+            this.FlyoutViewModels.Add(new FlyoutBottomViewModel());
         }
     }
 }

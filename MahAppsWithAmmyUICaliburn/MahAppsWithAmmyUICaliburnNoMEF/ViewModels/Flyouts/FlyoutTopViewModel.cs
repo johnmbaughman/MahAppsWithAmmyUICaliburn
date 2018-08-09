@@ -6,9 +6,9 @@ namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts
     {
         public FlyoutTopViewModel()
         {
-            Header = "Top";
-            Position = Position.Top;
-            Theme = FlyoutTheme.Accent;
+            this.Header = "Top";
+            this.Position = Position.Top;
+            this.Theme = FlyoutTheme.Accent;
         }
     }
 }
