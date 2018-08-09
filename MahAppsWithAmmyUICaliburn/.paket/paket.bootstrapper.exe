@@ -1,0 +1,98 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>No File Download</title>
+		<meta name="author" content="ddebruyn" />
+		<!-- Date: 2015-09-02 -->
+	</head>
+	<body>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin: 0px auto;}
+.tg td{font-family:Arial, sans-serif;font-size:18px;padding:10px 5px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:18px;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
+.tg .tg-031e{text-align:left;padding-right:20px;}
+.tg .tg-0ord{text-align:left;padding-left:20px;}
+.tg .tg-s6z2{text-align:center}
+.details  {border-collapse:collapse;border-spacing:0;margin: 0px auto;}
+.details td{font-family:Arial, sans-serif;font-size:10px;text-align:left;padding:10px 5px;overflow:hidden;word-break:normal;}
+.details th{font-family:Arial, sans-serif;font-size:10px;text-align:left;font-weight:normal;padding:10px 5px;overflow:hidden;word-break:normal;}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-031e">
+    	<img src="http://txbluecoat.jbssa.com/JBS.jpg" height="100">
+    <th class="tg-0ord">
+    	<img src="http://txbluecoat.jbssa.com/blocked.png" height="200">
+</table>
+<table class="tg">
+  <tr>
+    <td class="tg-s6z2" colspan="2" style="padding-top:50px; padding-bottom: 10px;">
+    <p>The JBS Internet Usage Policy does not permit File Transfer Access by Users.  The Internet Policy can be viewed <a href="https://policy.jbssa.com/policyreview/index/itresources">here</a>.<br><br>
+    If you require a file to be retrieved, please create a Helpdesk Ticket <a href="https://helpdesk.jbssa.com/WorkOrder.do?reqTemplate=6307">here</a> and the Software will be made available through Software Center.<br><br>
+    <i><u>Please include the Copy and Paste the Error information at the bottom of this Page into the Helpdesk Ticket</i></u></p>
+  </tr>
+  <tr>
+    <td class="tg-s6z2" colspan="2" style="padding-top:10px; padding-bottom:20px;">
+    	<img src="http://txbluecoat.jbssa.com/SecurityLogo.png" height="100">
+    </td>
+  </tr>
+</table>
+<table class="details">
+    <tr>
+  	<th>
+  		URL Requested:<br>
+  		Requested Port: <br>
+  		Category:<br>
+  		Requested DNS: <br>
+  		Returned IP: <br>
+  		Client Request Protocol:<br>
+  		HTTP Request:<br>
+  		---------------------------------------<br>
+  		SSL Failure Reason:<br>
+  		SSL Cert Hostname:<br>
+  		SSL Cert Hostname Cat:<br>
+  		SSL Cert Subject:<br>
+  		Client Cert Common Name:<br>
+  		Client Cert Subject:<br>
+  		---------------------------------------<br>
+  		User:<br>
+  		Groups:<br>
+  		User IP:<br>
+  		---------------------------------------<br>
+		Bluecoat:<br>
+		Policy Eval Time:<br>
+		Total Time: <br>
+		Server Download Time:<br>
+  	</th>
+  	<th>
+  		https://github.com/fsprojects/Paket/releases/download/5.176.4/paket.bootstrapper.exe<br>
+  		443<br>
+  		Technology/Internet<br>
+  		<br>
+  		<br>
+  		https<br>
+  		GET /fsprojects/Paket/releases/download/5.176.4/paket.bootstrapper.exe HTTP/1.1<br>
+  		------------------------------------------------<br>
+  		<br>
+  		github.com<br>
+  		Technology/Internet<br>
+  		 CN=github.com,O=GitHub\, Inc.,L=San Francisco,ST=California,C=US,serialNumber=5157550,jurisdictionST=Delaware,jurisdictionC=US,businessCategory=Private Organization<br>
+  		<br>
+  		<br>
+  		------------------------------------------------<br>
+  		GLOBAL\jbaughma<br>
+  		GLOBAL\INTERNETACCESS-GP<br>
+  		10.161.185.5<br>
+  		------------------------------------------------<br>
+		USTXCR00BLU00I-10.191.29.25<br>
+		0<br>
+		<br>
+		<br>
+
+
+
+  	</th>
+  </tr>
+</table>
+</body>
+</html>

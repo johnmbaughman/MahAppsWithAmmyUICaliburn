@@ -1,0 +1,12 @@
+source http://ustxri00app22i.global.corp.prod/nuget/usexclusive
+
+nuget Ammy 1.2.94 prerelease restriction: >= net471
+nuget Ammy.WPF 1.2.94 prerelease restriction: >= net471
+nuget Caliburn.Micro 3.2.0 prerelease restriction: >= net471
+nuget Caliburn.Micro.Core 3.2.0 prerelease restriction: >= net471
+nuget ControlzEx 3.0.2.4 prerelease restriction: >= net471
+nuget Costura.Fody 3.1.0 prerelease restriction: >= net471
+nuget Fody 3.1.4 prerelease restriction: >= net471
+nuget JetBrains.Annotations 2018.2.1 prerelease restriction: >= net471
+nuget MahApps.Metro 1.6.5 prerelease restriction: >= net471
+nuget MahApps.Metro.IconPacks 2.3.0 prerelease restriction: >= net471

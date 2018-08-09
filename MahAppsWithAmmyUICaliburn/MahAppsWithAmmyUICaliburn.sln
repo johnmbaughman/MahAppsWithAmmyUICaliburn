@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{889F371F-92A0-4CB2-995B-D33700F009BC}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahAppsWithAmmyUICaliburn", "MahAppsWithAmmyUICaliburn\MahAppsWithAmmyUICaliburn.csproj", "{7D208914-B5F4-4055-9B26-78B2BD881EED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MahAppsWithAmmyUICaliburnNoMEF", "MahAppsWithAmmyUICaliburnNoMEF\MahAppsWithAmmyUICaliburnNoMEF.csproj", "{5225DA56-F003-4A80-BF9C-1F8E40FC08F7}"

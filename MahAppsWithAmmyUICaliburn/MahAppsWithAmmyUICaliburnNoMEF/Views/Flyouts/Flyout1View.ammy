@@ -1,0 +1,37 @@
+using MahApps.Metro.Controls;
+
+UserControl "MahAppsWithAmmyUICaliburnNoMEF.Views.Flyouts.Flyout1View" {
+  Grid {
+    Margin: "24"
+    RowDefinitions: [
+      RowDefinition { Height: "Auto" }
+      RowDefinition { Height: "*" }
+      RowDefinition { Height: "Auto" }
+    ]
+    TextBlock { Grid.Row: "0",  Text: "Something above the ScrollPanel" }
+    ScrollViewer {
+      Grid.Row: "1"
+      VerticalScrollBarVisibility: "Auto"
+      StackPanel {
+        Orientation: "Vertical"
+        TextBox { TextBoxHelper.Watermark: "TextBox 01" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 02" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 03" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 04" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 05" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 06" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 07" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 08" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 09" }
+        TextBox { Margin: "0 5 0 0",  TextBoxHelper.Watermark: "TextBox 10" }
+      }
+    }
+    StackPanel {
+      Grid.Row: "2"
+      Margin: "0 5 0 0"
+      Orientation: "Horizontal"
+      Button { Margin: "0 0 10 0",  Content: "create" }
+      Button { Content: "cancel" }
+    }
+  }
+}
