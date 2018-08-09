@@ -1,5 +1,6 @@
 using Caliburn.Micro;
 using MahAppsWithAmmyUICaliburnNoMEF.ViewModels;
+using MahAppsWithAmmyUICaliburnNoMEF.ViewModels.Flyouts;
 
 namespace MahAppsWithAmmyUICaliburnNoMEF.ViewModels
 {

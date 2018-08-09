@@ -107,13 +107,13 @@
     </Compile>
     <Compile Include="Services\IServiceLocator.cs" />
     <Compile Include="ViewModels\FlyoutBaseViewModel.cs" />
-    <Compile Include="ViewModels\Flyout1ViewModel.cs" />
-    <Compile Include="ViewModels\Flyout2ViewModel.cs" />
-    <Compile Include="ViewModels\Flyout3ViewModel.cs" />
-    <Compile Include="ViewModels\FlyoutBottomViewModel.cs" />
-    <Compile Include="ViewModels\FlyoutLeftViewModel.cs" />
-    <Compile Include="ViewModels\FlyoutSettingsViewModel.cs" />
-    <Compile Include="ViewModels\FlyoutTopViewModel.cs" />
+    <Compile Include="ViewModels\Flyouts\Flyout1ViewModel.cs" />
+    <Compile Include="ViewModels\Flyouts\Flyout2ViewModel.cs" />
+    <Compile Include="ViewModels\Flyouts\Flyout3ViewModel.cs" />
+    <Compile Include="ViewModels\Flyouts\FlyoutBottomViewModel.cs" />
+    <Compile Include="ViewModels\Flyouts\FlyoutLeftViewModel.cs" />
+    <Compile Include="ViewModels\Flyouts\FlyoutSettingsViewModel.cs" />
+    <Compile Include="ViewModels\Flyouts\FlyoutTopViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -127,13 +127,13 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <None Include="Resources\Theme1.ammy" />
-    <None Include="Views\Flyout1View.ammy" />
-    <None Include="Views\Flyout2View.ammy" />
-    <None Include="Views\Flyout3View.ammy" />
-    <None Include="Views\FlyoutBottomView.ammy" />
-    <None Include="Views\FlyoutLeftView.ammy" />
-    <None Include="Views\FlyoutSettingsView.ammy" />
-    <None Include="Views\FlyoutTopView.ammy" />
+    <None Include="Views\Flyouts\Flyout1View.ammy" />
+    <None Include="Views\Flyouts\Flyout2View.ammy" />
+    <None Include="Views\Flyouts\Flyout3View.ammy" />
+    <None Include="Views\Flyouts\FlyoutBottomView.ammy" />
+    <None Include="Views\Flyouts\FlyoutLeftView.ammy" />
+    <None Include="Views\Flyouts\FlyoutSettingsView.ammy" />
+    <None Include="Views\Flyouts\FlyoutTopView.ammy" />
     <None Include="Views\ShellView.ammy" />
   </ItemGroup>
   <ItemGroup>
