@@ -1,0 +1,18 @@
+using MahApps.Metro.IconPacks;
+
+UserControl "MahAppsWithAmmyUICaliburnNoMEF.Views.FlyoutBottomView" {
+  StackPanel {
+    Height: "80"
+    Margin: "5 5 5 5"
+    HorizontalAlignment: "Right"
+    Orientation: "Horizontal"
+    Button {
+      Width: "36"
+      Height: "36"
+      FontFamily: "Segoe UI Symbol"
+      FontSize: "16"
+      Style: "{DynamicResource MahApps.Metro.Styles.MetroCircleButtonStyle}"
+      PackIconModern { Kind: "Add" }
+    }
+  }
+}

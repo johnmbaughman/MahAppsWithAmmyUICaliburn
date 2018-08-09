@@ -2,7 +2,7 @@
 using System.Windows;
 using AmmySidekick;
 
-namespace MahAppsWithAmmyUICaliburn
+namespace MahAppsWithAmmyUICaliburnNoMEF
 {
     public partial class App : Application
     {

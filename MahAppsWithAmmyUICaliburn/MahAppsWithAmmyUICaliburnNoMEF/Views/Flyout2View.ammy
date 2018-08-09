@@ -1,0 +1,7 @@
+UserControl "MahAppsWithAmmyUICaliburnNoMEF.Views.Flyout2View" {
+  StackPanel {
+    Orientation: "Vertical"
+    Button { Content: "create" }
+    Button { Content: "cancel" }
+  }
+}

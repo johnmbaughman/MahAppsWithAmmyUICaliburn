@@ -1,0 +1,89 @@
+using MahApps.Metro.Controls;
+using Caliburn.Micro;
+
+MetroWindow "MahAppsWithAmmyUICaliburnNoMEF.Views.ShellView" {
+  "xmlns:Controls": "clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+  Title: "Flyouts Demo"
+  Width: "800"
+  Height: "600"
+  BorderBrush: "{DynamicResource AccentColorBrush}"
+  BorderThickness: "1"
+  SaveWindowPosition: "True"
+  WindowStartupLocation: "CenterScreen"
+  Resources: Style Key="CustomFlyoutStyle" {
+    BasedOn: "{StaticResource {x:Type Controls:Flyout}}"
+    TargetType: Flyout
+    Setter { Property: "Header",  Value: "{Binding Header}" }
+    Setter { Property: "IsOpen",  Value: "{Binding IsOpen}" }
+    Setter { Property: "Position",  Value: "{Binding Position}" }
+    Setter { Property: "Theme",  Value: "{Binding Theme}" }
+  }
+  Flyouts: FlyoutsControl "FlyoutViewModels" { ItemContainerStyle: "{StaticResource CustomFlyoutStyle}" }
+  Grid {
+    StackPanel {
+      Margin: "10"
+      HorizontalAlignment: "Left"
+      TextBlock {
+        Margin: "10"
+        FontSize: "30"
+        Text: "Some Flyout Tests..."
+      }
+      Button {
+        MinWidth: "90"
+        Margin: "2"
+        Message.Attach: "[Event Click] = [Action ToggleFlyout(0)]"
+        Content: "Show 1"
+      }
+      Button {
+        MinWidth: "90"
+        Margin: "2"
+        Message.Attach: "[Event Click] = [Action ToggleFlyout(1)]"
+        Content: "Show 2"
+      }
+      Button {
+        MinWidth: "90"
+        Margin: "2"
+        Message.Attach: "[Event Click] = [Action ToggleFlyout(2)]"
+        Content: "Show 3"
+      }
+      Button {
+        MinWidth: "90"
+        Margin: "2"
+        Message.Attach: "[Event Click] = [Action ToggleFlyout(3)]"
+        Content: "Settings"
+      }
+      Button "Close" {
+        MinWidth: "90"
+        Margin: "2"
+        Content: "Close"
+      }
+    }
+    StackPanel {
+      Margin: "10"
+      HorizontalAlignment: "Center"
+      VerticalAlignment: "Center"
+      Button {
+        MinWidth: "90"
+        Margin: "2"
+        Message.Attach: "[Event Click] = [Action ToggleFlyout(5)]"
+        Content: "Show Top"
+      }
+      Button {
+        MinWidth: "90"
+        Margin: "2"
+        Message.Attach: "[Event Click] = [Action ToggleFlyout(6)]"
+        Content: "Show Bottom"
+      }
+    }
+    StackPanel {
+      Margin: "10"
+      HorizontalAlignment: "Right"
+      Button {
+        MinWidth: "90"
+        Margin: "2"
+        Message.Attach: "[Event Click] = [Action ToggleFlyout(4)]"
+        Content: "Show Left"
+      }
+    }
+  }
+}

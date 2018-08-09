@@ -1,0 +1,9 @@
+Application "MahAppsWithAmmyUICaliburnNoMEF.App" {
+  Resources: ResourceDictionary {
+    MergedDictionaries: [ 
+        ResourceDictionary {
+            AppBootstrapper Key="Bootstrapper" { }
+        }
+    ]
+  }
+}
